@@ -1,0 +1,21 @@
+input {
+  display: none;
+}
+.size {
+  border: 1px solid #1d1f22;
+  width: 63px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input:checked + .size {
+  background-color: black;
+  color: white;
+}
+
+input:disabled + .size {
+  border: 1px solid #a6a6a6;
+  color: #a6a6a6;
+}

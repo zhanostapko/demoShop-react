@@ -1,0 +1,26 @@
+.itemImg {
+  max-width: 145px;
+  height: auto;
+}
+
+.img {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrowLeft {
+  left: 0;
+}
+
+.arrowRight {
+  right: 0;
+}

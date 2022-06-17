@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-height: 80px;
+}
+
+.actions {
+  display: flex;
+}
+
+.navLinks {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 235px;
+  height: 56px;
+  margin: 0;
+  margin-top: 24px;
+}

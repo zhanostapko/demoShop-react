@@ -1,0 +1,21 @@
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spinner-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #d7fadb; /* Light grey */
+  border-top: 10px solid #5ece7b; /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}

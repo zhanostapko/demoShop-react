@@ -1,0 +1,19 @@
+header {
+  margin-top: 80px;
+  position: relative;
+}
+
+.title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 160%;
+}
+
+.itemsList {
+  margin-top: 103px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

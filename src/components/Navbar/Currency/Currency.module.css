@@ -1,0 +1,45 @@
+.selected {
+  font-style: 12px;
+  margin-right: 22px;
+  line-height: 29px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.selected img {
+  margin-left: 10px;
+  margin-bottom: 2px;
+  width: 6px;
+}
+
+.currency {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 114px;
+  height: 169px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 7.5px;
+  padding: 10px;
+  box-shadow: 0px 4px 35px -4px rgba(168, 172, 176, 0.19);
+  left: -10px;
+  z-index: 50;
+}
+
+.dropdown li {
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background-color: rgba(234, 234, 234, 0.8);
+}

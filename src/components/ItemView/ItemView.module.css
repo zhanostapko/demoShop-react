@@ -1,0 +1,84 @@
+.main {
+  padding: 80px 0 72px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  gap: 40px;
+}
+
+.side img {
+  width: 80px;
+}
+
+.mainImg img {
+  max-width: 610px;
+  height: 511px;
+  margin-right: 100px;
+}
+
+.info {
+  width: 292px;
+  margin-right: 119px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+}
+
+.subtitle {
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.attributes {
+  margin-top: 43px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: 'Roboto Condensed';
+}
+
+.attributeContainer {
+  display: flex;
+  margin-top: 8px;
+  gap: 12px;
+}
+
+.price {
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: 'Roboto Condensed';
+}
+
+.price div {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+}
+
+.add {
+  margin-top: 30px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.description {
+  margin-top: 45px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.96%;
+}

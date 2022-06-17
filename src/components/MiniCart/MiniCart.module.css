@@ -1,0 +1,101 @@
+.modal {
+  width: 350px;
+  max-height: 700px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 87px;
+  padding: 8px 5px 20px 16px;
+}
+.empty {
+  text-align: center;
+}
+
+.title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.title span {
+  font-weight: 500;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.total span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.total span:first-child {
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view {
+  background: #ffffff;
+  border: 1px solid #1d1f22;
+  color: #000;
+}
+
+.itemContainer {
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-right: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(173, 173, 173);
+  border-radius: 10px;
+}
+
+.attributes {
+  max-width: 190px;
+  margin-top: 8px;
+  text-align: left;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.attributes p {
+  margin: 0;
+  max-width: 170px;
+}
+.attributes > div > div {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.iconStyles {
+  width: 32px;
+  height: 32px;
+  font-size: 10px;
+}
+
+.iconStyles > label {
+  width: 32px;
+  height: 32px;
+}
